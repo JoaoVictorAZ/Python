@@ -1,0 +1,8 @@
+nome=str(input("Escreva seu nome completo: ")).strip()
+separa = nome.split()
+print("Maiúsculo: {}".format(nome.upper()))
+print("Minúsculo: {}".format(nome.lower()))
+print("1º letra maiúscula: {}".format(nome.capitalize()))
+print("Contagem: {}".format(len(nome)-nome.count(' ')))
+print("Ao contrário: {}".format(nome[::-1]))
+print("Primeiro nome: {}".format((separa[0])))
