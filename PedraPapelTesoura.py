@@ -16,7 +16,7 @@ for x in range(rodadas):
         : """))
 
     if escolha>0 and escolha<4:
-        computador = randrange(1, 3)
+        computador = randrange(1, 4)
         print(f"""\033[1;32mVocê escolheu\033[m {escolha}
 \033[1;34mO computador escolheu\033[m {computador}
 """)
