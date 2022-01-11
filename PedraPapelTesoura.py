@@ -22,28 +22,28 @@ for x in range(rodadas):
 """)
 
         if computador == escolha:
-            print("Uau, Você não perdeu... Mas também não ganhou, isso foi um empate.\n")
+            print("Uau, Você não perdeu... Mas também não ganhou, isso foi um empate.\n---------------------------------")
             pontoc + 1 and pontoh + 1
         ##
         elif computador == 1 and escolha == 2:
-            print("Parabéns, escreveu sua vitória com esse papel hein?\n")
+            print("Parabéns, escreveu sua vitória com esse papel hein?\n---------------------------------")
             pontoh + 1
         elif computador == 1 and escolha == 3:
-            print("Ixe maria, Você foi QUEBRADO pela máquina\n")
+            print("Ixe maria, Você foi QUEBRADO pela máquina\n---------------------------------")
             pontoc + 1
         ##
         elif computador == 2 and escolha == 1:
-            print("Você foi embrulhado pelo papel digital\n")
+            print("Você foi embrulhado pelo papel digital\n---------------------------------")
             pontoc + 1
         elif computador == 2 and escolha == 3:
-            print("Tsc Tsc Tsc, sua tesoura passou pelo papel sem dificuldades\n")
+            print("Tsc Tsc Tsc, sua tesoura passou pelo papel sem dificuldades\n---------------------------------")
             pontoh + 1
         ##
         elif computador == 3 and escolha == 1:
-            print("Sua pedra ESBUGALHOU a tesoura inimiga\n")
+            print("Sua pedra ESBUGALHOU a tesoura inimiga\n---------------------------------")
             pontoh + 1
         elif computador == 3 and escolha == 2:
-            print("A tesoura digital te rasgou papelzinho ;-;\n")
+            print("A tesoura digital te rasgou papelzinho ;-;\n---------------------------------")
             pontoc + 1
     else:
         print("Você não escolheu um número válido")
