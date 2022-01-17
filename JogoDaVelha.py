@@ -30,10 +30,8 @@ CIANOLINHA = (13, 161, 146)
 CINZA = (84, 84, 84)
 
 ## ESTRUTURAS FRONT-END
-ICONE = pygame.image.load('images/jogodavelha.png')
 tela = pygame.display.set_mode((LARGURA, ALTURA))
 pygame.display.set_caption('Jogo da Velha')
-pygame.display.set_icon(ICONE)
 tela.fill(CIANO)
 
 
